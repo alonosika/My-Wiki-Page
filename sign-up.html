@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webpage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="bg-co">
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productpage.html">Product</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sign-up.html" class="button"><button>Sign In</button></a></li>
+                </ul>   
+            </div>
+    </nav> 
+        
+ <section class="sign up">
+        <p id="description" class="description text-center">
+            Sign In To Be Always Updated
+          </p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+                   
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number"
+              >Age</label
+            >
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="120"
+              class="form-control"
+              placeholder="Age"
+            />
+          </div>
+     
+        
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>  
+    
+   
+</body>
+</html>
