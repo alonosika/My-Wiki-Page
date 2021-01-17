@@ -333,21 +333,21 @@ form {
   cursor: pointer;
 }
 
-.sign-up{
+.sign-up {
   background: url(https://www.apple.com/retail/eton/images/hero_large_2x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.storemain{
-  font-family: 'Courier New', Courier, monospace;
+.storemain {
+  font-family: "Courier New", Courier, monospace;
   color: white;
   height: 100vh;
   width: 100%;
 }
 
-.row{
+.row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -355,24 +355,23 @@ form {
   background-color: black;
 }
 
-.col-2{
+.col-2 {
   flex-basis: 50%;
   min-width: 300px;
 }
 
-.col-2 img{
+.col-2 img {
   max-width: 100%;
   padding: 50px 0;
-  
 }
 
-.col-2 h4{
+.col-2 h4 {
   margin: 30px 0px;
   font-size: 40px;
   line-height: 50px;
   margin-left: 20px;
 }
-.btn{
+.btn {
   display: inline-block;
   background-color: rgba(255, 82, 59, 1);
   color: white;
@@ -381,26 +380,25 @@ form {
   border-radius: 30px;
   margin-left: 170px;
   text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: rgba(255, 82, 59, 0.8);
 }
 
-.col-2 p{
+.col-2 p {
   font-size: 25px;
   margin-left: 20px;
-  
 }
 
-.categories{
+.categories {
   margin: 80px 0;
   background-color: black;
   margin-top: 0;
 }
 
-.col-3{
+.col-3 {
   flex-basis: 30%;
   min-width: 250px;
   margin-bottom: 30px;
@@ -409,24 +407,24 @@ form {
   padding-left: 20px;
 }
 
-.col-3 img{
-  width: 320px;
+.col-3 img {
+  width: 300px;
   height: 200px;
   display: inline;
 }
 
-.col-3 img:hover{
+.col-3 img:hover {
   transform: scale(1.1);
 }
 
-.small-container{
+.small-container {
   max-width: 1080px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
 }
 
-.col-4{
+.col-4 {
   flex-basis: 50%;
   padding: 20px;
   min-width: 300px;
@@ -434,23 +432,23 @@ form {
   text-align: center;
 }
 
-.col-4 img{
+.col-4 img {
   width: 300px;
   padding: 30px;
 }
 
-.col-4 h5{
+.col-4 h5 {
   margin: 30px 0px;
   font-size: 40px;
   line-height: 50px;
   margin-left: 20px;
 }
 
-.col-4 img:hover{
+.col-4 img:hover {
   transform: scale(1.1);
 }
 
-.col-4 p{
+.col-4 p {
   margin: 30px 0px;
   font-size: 30px;
   font-weight: 500;
@@ -458,17 +456,16 @@ form {
   margin-left: 20px;
 }
 
-#footer1{
-  color:white;
+#footer1 {
+  color: white;
   text-align: center;
   padding-top: 30px;
 }
 
-.content p{
+.content p {
   flex-basis: 50%;
   padding: 20px;
   min-width: 300px;
   margin-bottom: 20px;
   text-align: center;
 }
-
