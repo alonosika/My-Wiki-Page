@@ -457,7 +457,9 @@ form {
 }
 
 #footer1{
-  color: black;
+  color:white;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .content p{
